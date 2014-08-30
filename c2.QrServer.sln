@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c2.QrServer", "c2.QrServer\c2.QrServer.csproj", "{1094C505-F3AD-498C-94DF-B12E80294F12}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2249AF38-580F-4F04-92EA-D8103D0FA206}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{717B4AA4-CA07-4E74-A854-5B61B35E3A88}"
+	ProjectSection(SolutionItems) = preProject
+		lib\zxing.dll = lib\zxing.dll
+		lib\zxing.pdb = lib\zxing.pdb
+		lib\zxing.XML = lib\zxing.XML
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1094C505-F3AD-498C-94DF-B12E80294F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1094C505-F3AD-498C-94DF-B12E80294F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1094C505-F3AD-498C-94DF-B12E80294F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1094C505-F3AD-498C-94DF-B12E80294F12}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
